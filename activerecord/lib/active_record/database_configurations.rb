@@ -14,6 +14,7 @@ module ActiveRecord
 
     def initialize(configurations = {})
       @configurations = build_configs(configurations)
+      p @configurations
     end
 
     # Collects the configs for the environment and optionally the specification
